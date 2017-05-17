@@ -14,6 +14,7 @@
 		18C79C441CEAE549002C6B50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C79C431CEAE549002C6B50 /* Images.xcassets */; };
 		18C79C471CEAE549002C6B50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C79C451CEAE549002C6B50 /* LaunchScreen.xib */; };
 		18C79C531CEAE549002C6B50 /* _____delegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C79C521CEAE549002C6B50 /* _____delegateTests.m */; };
+		18C79C5E1CEAE55F002C6B50 /* FristViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C79C5D1CEAE55F002C6B50 /* FristViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		18C79C4C1CEAE549002C6B50 /* 关于 代理delegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "关于 代理delegateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C79C511CEAE549002C6B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C79C521CEAE549002C6B50 /* _____delegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____delegateTests.m"; sourceTree = "<group>"; };
+		18C79C5C1CEAE55F002C6B50 /* FristViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FristViewController.h; sourceTree = "<group>"; };
+		18C79C5D1CEAE55F002C6B50 /* FristViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FristViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				18C79C3B1CEAE549002C6B50 /* AppDelegate.m */,
 				18C79C3D1CEAE549002C6B50 /* ViewController.h */,
 				18C79C3E1CEAE549002C6B50 /* ViewController.m */,
+				18C79C5C1CEAE55F002C6B50 /* FristViewController.h */,
+				18C79C5D1CEAE55F002C6B50 /* FristViewController.m */,
 				18C79C401CEAE549002C6B50 /* Main.storyboard */,
 				18C79C431CEAE549002C6B50 /* Images.xcassets */,
 				18C79C451CEAE549002C6B50 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				18C79C3F1CEAE549002C6B50 /* ViewController.m in Sources */,
 				18C79C3C1CEAE549002C6B50 /* AppDelegate.m in Sources */,
 				18C79C391CEAE549002C6B50 /* main.m in Sources */,
+				18C79C5E1CEAE55F002C6B50 /* FristViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

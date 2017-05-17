@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "FristViewController.h"
+@interface ViewController ()<changeDeldgate>
 
 @end
 
@@ -22,6 +22,16 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)ButtonClick:(id)sender {
+    FristViewController * fristV = [[FristViewController alloc]init];
+    fristV.delegate = self;
+    [self presentViewController:fristV animated:YES completion:nil];
+}
+
+- (void)changVauleToViewCtrl:(NSString *)string{
+    _label.text = string;
 }
 
 @end
